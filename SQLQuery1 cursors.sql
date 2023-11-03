@@ -72,6 +72,7 @@ GO
 --GO
 
 PRINT('------------------------------------------------------------')
+--Курсор для виведення п’яти рандомних студентів
 BEGIN
   DECLARE @firstname nvarchar(50),@lastname nvarchar(50)
   DECLARE cur_students_random CURSOR SCROLL
